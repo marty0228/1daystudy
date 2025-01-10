@@ -22,7 +22,7 @@ int main(){
 	sort(v.begin(), v.end());
 	
 	
-	for (int i = 1; i <= N; i++) {
+	for (int i = 1; i <= N; i++) {//ÀÌÁßfor
 		for (int j = 0; j < i; j++) {
 			if (v[i].second > v[j].second) {
 				if (dp[j] >= dp[i]) {
